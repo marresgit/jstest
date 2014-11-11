@@ -16,8 +16,8 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".deleteS").click(function(){
-	   $(this).parent().remove();
+	$(document).on("click",".deleteS",function(){
+	   $(this).parent().parent().remove();
 	});
 		console.log(iCount);
 });
