@@ -15,11 +15,13 @@ $(document).ready(function(){
 		}
 	});
 
-// Deletes a hole .divJS(box) with .deleteS
+// Deletes a hole .divJS(box) with .deleteS and counts down for every click so that it follows the structure of the ADD button.
 	$(document).on("click",".deleteS",function(){
+	if (iCount => 10)
+	   iCount = iCount - 1;
+		console.log(iCount);
 	   $(this).parent().parent().remove();
 	});
-		console.log(iCount);
 });
 
 
