@@ -1,0 +1,117 @@
+
+body{
+    background-color:#2F4246;
+}
+
+#Big {
+    width:1000px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    padding:10px;
+    text-align:center;
+    border-color:lightblue;
+    border-style:solid;
+    border-width:0px;
+    background-color:#989896;
+    border-radius:4px;
+  
+    float:left;
+    
+}
+
+divJS.hover {
+    border:1px solid #000;
+}
+
+.divJS {
+    height:150px;
+    width:250px;
+    border-radius:5px;
+    background-color:#75888C;
+    text-align:center;
+    color:#FFFFFF;
+    font-family:Helvetica;
+    opacity:0.5;
+    margin:10px;
+    padding:5px;
+    background-color:black;    
+    float:left;
+    /**cursor:pointer;**/
+
+}
+
+.inputBox {
+    width:180px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.deleteS {
+    height:20px;
+    width:20px;   
+    border:1px solid yellow;
+    float:right;
+    margin-top:-45px;
+    padding:0px;
+    cursor:pointer;
+}
+
+.button1 {
+    height:25px;
+    width:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color:lightblue;
+    text-align:center;
+    font-family:Helvetica;
+    margin:5px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.button2 {
+    height:25px;
+    width:70;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    background-color:lightblue;
+    text-align:center;
+    font-family:Helvetica;
+    margin:5px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.disableB {
+    height:25px;
+    width:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    border:1px solid black;
+    text-align:center;
+    font-family:Helvetica;
+    margin:5px;
+    padding:10px;
+    opacity:0.5;
+}
+
+.colorclick {
+	background-color:black;
+	opacity:0.19;
+}
+
+.titleText {
+    font-family:Helvetica;
+}
+
+.redtext {
+    color:#580058;
+}
+
+
