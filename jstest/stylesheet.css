@@ -4,6 +4,7 @@ body{
     background-color:#F5F5F5;
 }
 
+
 #Big {
     width:1000px;
     height:auto;
@@ -20,6 +21,23 @@ body{
     
 }
 
+#footerBig2 {
+    width:1000px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    padding:10px;
+    font-size:12px;
+    font-family:'Courier New';
+    text-align:center;
+    border-color:lightblue;
+    border-style:solid;
+    border-width:0px;
+    background-color:white;
+    border-radius:8px;
+    
+}
 
 .divJS {
     height:150px;
