@@ -1,8 +1,15 @@
 
 $(document).ready(function(){
     var iCount = 0;
-    var addDiv = "<div class='ruta1 divJS'><div class='inputBox'><input type=text class='input' id=tb value=''></div><br/><strong>MouseOverMIG!<div class='deleteS'>x</div></strong></div>";
+    var addDiv = "<div class='ruta1 divJS'><div class='inputBox'><input type=text class='input' id=tb value=''></div><br/><strong><div class='deleteS'>x</div></strong></div>";
 	
+	$(".button1").mouseenter(function(){
+	   $(".button1").addClass("buttonColor");
+	});
+	$(".button1").mouseleave(function(){
+	   $(".button1").removeClass("buttonColor");
+	});
+
 // Creates max 11 div boxes and gives them a different ID number.
  	$(".button1").click(function(){
 		if (iCount <= 7) {

@@ -16,9 +16,7 @@ body{
     border-style:solid;
     border-width:0px;
     background-color:white;
-    border-radius:4px;
-  
-    float:left;
+    border-radius:9px;
     
 }
 
@@ -27,14 +25,15 @@ body{
     height:150px;
     width:250px;
     border-radius:5px;
-    background-color:#CF3A3A;
+    background-color:#F2F2F2;
     text-align:center;
     color:#FFFFFF;
     font-family:Helvetica;
     opacity:0.5;
     margin:20px;
     padding:5px;
-    float:left;
+    display:inline-block;
+    border:1px solid grey;
     /**cursor:pointer;**/
 
 }
@@ -49,7 +48,7 @@ body{
 .deleteS {
     height:20px;
     width:20px;   
-    border:1px solid yellow;
+    border:0px solid yellow;
     float:right;
     margin-top:-45px;
     padding:0px;
@@ -68,6 +67,11 @@ body{
     margin:5px;
     padding:10px;
     cursor:pointer;
+}
+
+.buttonColor {
+    background-color:#E9FFFF;
+
 }
 
 .button2 {
