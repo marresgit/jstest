@@ -39,6 +39,18 @@ body{
     
 }
 
+#infoButton {
+    width:35px;
+    height:20px; 
+    border:1px solid black;
+    float:right;
+    cursor:pointer;
+}
+
+.box  {
+    width:350px;
+}
+
 .divJS {
     height:150px;
     width:250px;
