@@ -4,9 +4,8 @@ body{
     background-color:#F5F5F5;
 }
 
-
 #Big {
-    width:1000px;
+    max-width:1000px;
     height:auto;
     margin-left:auto;
     margin-right:auto;
@@ -22,7 +21,7 @@ body{
 }
 
 #footerBig2 {
-    width:1000px;
+    max-width:1000px;
     height:auto;
     margin-left:auto;
     margin-right:auto;
@@ -39,15 +38,27 @@ body{
     
 }
 
-#infoButton {
-    width:35px;
-    height:20px; 
+.infoButton {
+    width:auto;
+    height:auto; 
     border:1px solid black;
     float:right;
     cursor:pointer;
 }
 
-.box  {
+.infoDropdown {
+    background-color:grey;
+    height:auto;
+    font-family:'Courier New';
+    width:110px;
+    text-align:center;
+    padding:10px;
+    display:none;
+    border-radius:10px;
+    float:right;
+}
+
+.boxOne  {
     width:350px;
 }
 
@@ -83,9 +94,11 @@ body{
     margin-top:-45px;
     padding:0px;
     cursor:pointer;
+    color:grey;
+    
 }
 
-.button1 {
+.addButton {
     height:25px;
     width:70px;
     margin-left:auto;
@@ -99,18 +112,23 @@ body{
     cursor:pointer;
 }
 
-.buttonColor {
+.buttonAddcolor {
     background-color:#E9FFFF;
 
 }
 
-.button2 {
-    height:25px;
-    width:70;
+.buttonSavecolor {
+    background-color:#FFEBCD;
+
+}
+
+.saveButton {
+    height:20px;
+    width:40;
     margin-left:auto;
     margin-right:auto;
     border-radius:10px;
-    background-color:lightblue;
+    border:1px solid black;
     text-align:center;
     font-family:Helvetica;
     margin:5px;
