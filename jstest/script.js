@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     var iCount = 0;
-    var addDiv = "<div class='ruta1 divJS'><div class='inputBox'><input type=text class='input' id=tb value=''></div><br/><strong><div class='deleteS'>x</div></strong></div>";
+    var addDiv = "<div class='ruta1 divJS'><div class='inputBox'><form><input type=text><input type='submit'></form></div><strong><div class='deleteS'>x</div></strong></div>";
 	
 	$(".infoButton").click(function(){
 	   $(".infoDropdown").slideToggle("slow");
@@ -9,16 +9,22 @@ $(document).ready(function(){
 
 
 // Remove and add .buttonColor class to Add button
-	$(".button1").mouseenter(function(){
-	   $(".button1").addClass("buttonColor");
-	});
-	$(".button1").mouseleave(function(){
-	   $(".button1").removeClass("buttonColor");
-	});
 
+	$(".addButton").mouseenter(function(){
+	   $(".addButton").addClass("buttonAddcolor");
+	});
+	$(".addButton").mouseleave(function(){
+	   $(".addButton").removeClass("buttonAddcolor");
+	});
+	$(".saveButton").mouseenter(function(){
+	   $(".saveButton").addClass("buttonSavecolor");
+	});
+	$(".saveButton").mouseleave(function(){
+	   $(".saveButton").removeClass("buttonSavecolor");
+	});
 
 // Creates max 11 div boxes and gives them a different ID number.
- 	$(".button1").click(function(){
+ 	$(".addButton").click(function(){
 		if (iCount <= 7) {
 		iCount = iCount + 1;
 		console.log(iCount);
@@ -36,6 +42,13 @@ $(document).ready(function(){
 		console.log(iCount);
 	   $(this).parent().parent().remove();
 	});
+
+	$('.divJS').submit(function(event){
+	      $(this).text('TRUE').show();
+		console.log("TRUE");
+		return;
+	$('span').text('FALSE bro..').show();
+	console.log("FALSE");
+	});
+
 });
-
-
