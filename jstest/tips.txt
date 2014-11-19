@@ -1,0 +1,13 @@
+
+Just some notes along the way of learing and making this site:
+
+
+ - I had problems with scaling the #BIG (div) to fit my mobile
+   screen and found out that you can use the ' max-width ' css style.. :)
+
+
+ - To position the .divJS (divs) in the middle i used ' display:inline-blick; '
+   
+
+ - Making the .infoDropdown was a bit of a trick, but an easy trick when
+   you know that the only thing you need 2 use is ' diplay:none; '
