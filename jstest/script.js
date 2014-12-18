@@ -8,6 +8,13 @@ $(document).ready(function(){
 	   $(".infoDropdown").slideToggle("slow");
 	});
 
+
+// Submitting every box (divJS) with saveButon
+	$('.saveButton').click(function(){
+		$(".forM").submit();
+	console.log("ClickClick..:");
+	});
+
 // Remove and add .buttonColor class to Add button
 
 	$(".addButton").mouseenter(function(){
@@ -50,10 +57,5 @@ $(document).ready(function(){
 	   $(this).parent().remove();
 	});
 
-// Submitting every box (divJS) with saveButon
-	$('.saveButton').click(function(){
-		$("form").submit();
-	console.log("ClickClick..:");
-	});
 
 });
