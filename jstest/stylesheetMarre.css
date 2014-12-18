@@ -62,6 +62,10 @@ body{
     width:350px;
 }
 
+.forM {
+    display:inline-block;
+}
+
 .divJS {
     height:150px;
     width:250px;
@@ -76,7 +80,13 @@ body{
     display:inline-block;
     border:1px solid grey;
     /**cursor:pointer;**/
+}
 
+.adressBox {
+    height:85px;
+    width:250px;
+    border-radius:5px;
+    border:0px solid black;
 }
 
 .inputBox {
@@ -89,9 +99,9 @@ body{
 .deleteS {
     height:20px;
     width:20px;   
-    border:0px solid yellow;
+    border:0px solid black;
     float:right;
-    margin-top:-45px;
+    xmargin-top:-45px;
     padding:0px;
     cursor:pointer;
     color:grey;
@@ -163,4 +173,7 @@ body{
     color:#580058;
 }
 
+.submitThis {
+    display:none;
+}
 
