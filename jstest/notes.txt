@@ -11,3 +11,14 @@ Just some notes along the way of learing and making this site:
 
  - Making the .infoDropdown was a bit of a trick, but an easy trick when
    you know that the only thing you need 2 use is ' diplay:none; '
+
+
+ThePhp:
+
+ - I found this helping module for printing just the hostname of the saved url
+   http://php.net/parse_url
+
+
+
+
+

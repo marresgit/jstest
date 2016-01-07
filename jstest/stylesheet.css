@@ -161,8 +161,8 @@ body{
 }
 
 .colorclick {
-	background-color:black;
-	opacity:0.19;
+    background-color:black;
+    opacity:0.19;
 }
 
 .titleText {
@@ -176,4 +176,25 @@ body{
 .submitThis {
     display:none;
 }
+
+.OnlySubmit {
+    display:none;
+}
+
+.urlText {
+    color:grey;    
+
+}
+
+.url_id {
+    float:left;
+    color:grey;
+}
+
+.text1 {
+    font-family:Courier New;
+    margin-left:30px;
+}
+
+
 
