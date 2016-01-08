@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
     <script type="text/javascript" src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="stylesheetMarre.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 
 
 <style>
@@ -27,6 +27,9 @@
   <br>
 
 <?php
+
+# Setting up database:
+#if (array_key_exists('')
 
 echo "<form class=\"postThis\" method=\"POST\">
         <input type=\"text\" name=\"onlyInput\">
